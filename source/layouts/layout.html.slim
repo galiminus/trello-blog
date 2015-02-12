@@ -1,0 +1,14 @@
+doctype html
+html ng-app="trelloBlog"
+  head
+    meta charset="utf-8"
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+
+    title
+      | {{title}}
+
+    = stylesheet_link_tag "all"
+    = javascript_include_tag "all"
+
+  body
+    = yield

@@ -1,0 +1,14 @@
+aside.col-xs-6.col-md-3
+  .brand
+    | {{board.name}}
+  nav
+    ul.list-unstyled
+      li ng-repeat="list in lists"
+        .name
+          | {{list.name}}
+        ul.list-unstyled
+          li ng-repeat="card in list.cards"
+            a ui-sref="board.lists.card({id:card.id})"
+              | {{card.name}}
+article.col-xs-6.col-md-9
+  ui-view

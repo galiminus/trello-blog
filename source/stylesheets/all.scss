@@ -1,0 +1,39 @@
+@import "normalize-css";
+@import "bootstrap";
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+
+    .row {
+        height: 100%;
+
+        aside {
+            background: #111;
+            height: 100%;
+
+            .brand {
+                color: #888;
+                font-size: 2em;
+                margin-top: 20px;
+            }
+
+            nav {
+                > ul {
+                    margin-top: 2em;
+                    color: #ddd;
+                    > li {
+                        margin-top: 1.2em;
+                        .name {
+                            font-weight: bold;
+                            font-size: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
