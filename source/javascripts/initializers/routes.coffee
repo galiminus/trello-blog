@@ -1,5 +1,9 @@
 angular.module("trelloBlog").config ($stateProvider, $urlRouterProvider, config) ->
-  $urlRouterProvider.otherwise "/board/lists"
+  $urlRouterProvider.otherwise ($injector, $location) ->
+    $injector.invoke (Restangular) ->
+      Restangular.one("boards", config.board).get(cards: 'open').then (board) ->
+        $location.url "/board/lists/#{board.cards[0].id}"
+
   $stateProvider
     .state "board",
       url: "/board"
