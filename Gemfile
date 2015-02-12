@@ -25,3 +25,4 @@ gem 'rails-assets-showdown', require: false
 gem 'rails-assets-normalize-css', require: false
 gem "bootstrap-sass", require: false
 
+gem 'middleman-ngannotate'

@@ -82,6 +82,10 @@ GEM
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
+    middleman-ngannotate (0.14.1.1)
+      execjs (>= 1.4)
+      middleman-core (~> 3.2)
+      middleman-sprockets (~> 3.2)
     middleman-sprockets (3.4.1)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -150,6 +154,7 @@ DEPENDENCIES
   bootstrap-sass
   middleman (~> 3.3.7)
   middleman-livereload (~> 3.1.0)
+  middleman-ngannotate
   rails-assets-angular (~> 1.3.9)!
   rails-assets-angular-markdown-filter
   rails-assets-angular-ui-router
