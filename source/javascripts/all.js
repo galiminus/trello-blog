@@ -4,7 +4,6 @@
 //= require restangular
 //= require angular-ui-router
 //= require angular-markdown-filter
+//= require angular-sanitize
 //= require app
-//= require_tree ./controllers
-//= require_tree ./directives
-//= require_tree ./initializers
+//= require_tree .

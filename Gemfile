@@ -23,6 +23,7 @@ gem "rails-assets-angular-ui-router", require: false
 gem 'rails-assets-angular-markdown-filter', require: false
 gem 'rails-assets-showdown', require: false
 gem 'rails-assets-normalize-css', require: false
+gem 'rails-assets-angular-sanitize', require: false
 gem "bootstrap-sass", require: false
 
 gem 'middleman-ngannotate'

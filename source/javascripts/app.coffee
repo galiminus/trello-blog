@@ -1,1 +1,1 @@
-angular.module("trelloBlog", ["restangular", "ui.router", "markdown"])
+angular.module("trelloBlog", ["restangular", "ui.router", "markdown", "ngSanitize"])
