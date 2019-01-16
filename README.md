@@ -1,4 +1,4 @@
-Working example [here](http://trelloblog.divshot.io/) based on [this Trello board](https://trello.com/b/A3rqsy0f).
+Working example [here](https://trello-blog.phoqu.es) based on [this Trello board](https://trello.com/b/NUuZsE7J).
 
 ## Use Trello as your blog backend
 
