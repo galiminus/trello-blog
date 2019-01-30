@@ -1,4 +1,4 @@
-Working example [here](https://trello-blog.phoqu.es) based on [this Trello board](https://trello.com/b/NUuZsE7J).
+Working example [here](https://trello-blog.phoqu.es) based on [this Trello board](https://trello.com/b/7sPtWjI0/trello-blog-sample).
 
 ## Use Trello as your blog backend
 
